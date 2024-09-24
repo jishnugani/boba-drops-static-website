@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6ec;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #fbd5b5;
+    transition: transform 0.3s ease-in-out;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+    transition: transform 0.3s ease-in-out;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+.facts {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.facts h2 {
+    font-size: 28px;
+    color: #ff7e50;
+    margin-bottom: 20px;
+}
+
+.cute-dogs-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px 0;
+}
+
+.cute-dogs-title {
+    font-size: 28px;
+    color: #ff7e50;
+    margin-bottom: 10px;
+}
+
+.cute-dogs-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cute-dogs-images img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cute-dogs-images img:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fbd5b5;
+    margin-top: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+header:hover, footer:hover {
+    transform: scale(1.05);
+}
+
+h1:hover {
+    transform: scale(1.05);
+}
+
+footer p:hover {
+    transform: scale(1.05);
+}
